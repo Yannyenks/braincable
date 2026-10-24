@@ -1,0 +1,6 @@
+{
+  "name": "BRAIN TRUST CÂBLE - Importation & Distribution de Câbles Électriques",
+  "description": "Fournisseur et importateur professionnel de solutions de câblage électrique pour le résidentiel, le tertiaire, l'industrie et les grands chantiers d'infrastructure.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

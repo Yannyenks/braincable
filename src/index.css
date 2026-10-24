@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-graphite: #0B0D10;
+    --color-anthracite: #151A20;
+    --color-surface: #1B2129;
+    --color-border: #26303D;
+    --color-copper: #D88746;
+    --color-copper-glow: #F09A55;
+    --color-copper-dark: #995221;
+    --color-electric-blue: #276BFF;
+    --color-tech-grey: #8B949E;
+    --color-mineral: #F4F6F8;
+  }
+
+  body {
+    background-color: #0B0D10;
+    color: #F4F6F8;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    letter-spacing: -0.02em;
+  }
+
+  .font-mono-tech {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0D10;
+}
+::-webkit-scrollbar-thumb {
+  background: #26303D;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D88746;
+}
+
+/* Metallic and glow utilities */
+.copper-glow {
+  box-shadow: 0 0 25px rgba(216, 135, 70, 0.25);
+}
+
+.copper-border-gradient {
+  border-image: linear-gradient(135deg, #D88746, #26303D, #276BFF) 1;
+}
+
+.tech-grid-pattern {
+  background-image: radial-gradient(rgba(216, 135, 70, 0.08) 1px, transparent 0);
+  background-size: 28px 28px;
+}
+
+.circuit-line {
+  background: linear-gradient(90deg, transparent, rgba(216, 135, 70, 0.4), transparent);
+}
